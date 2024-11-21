@@ -76,7 +76,7 @@
   font-weight: 700;
   font-size: 1.875rem;
   font-family: Roboto, sans-serif;
-  margin: -37px auto 0 calc(((100% - 1080px) / 2)  + 279px);
+  margin: -37px auto 0 calc(((100% - 1080px) / 2)  + 302px);
 }
 
 .u-section-1 .u-text-9 {
@@ -475,6 +475,7 @@
 
 .u-section-2 .u-text-7 {
   font-size: 1.875rem;
+  letter-spacing: normal;
   margin: 513px auto 0 81px;
 }
 
@@ -570,7 +571,6 @@
 
   .u-section-2 .u-text-7 {
     margin-left: 37px;
-    letter-spacing: normal;
   }
 
   .u-section-2 .u-text-8 {
@@ -758,8 +758,10 @@
     line-height: 1.76;
     letter-spacing: 0px;
     font-style: italic;
+    width: auto;
     margin-top: -33px;
-    margin-left: auto;
+    margin-right: 205px;
+    margin-left: calc(((100% - 430px) / 2)  + 200px);
   }
 
   .u-section-2 .u-line-1 {
