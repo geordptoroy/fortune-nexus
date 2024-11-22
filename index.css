@@ -68,7 +68,7 @@
 
 .u-section-1 .u-text-7 {
   font-size: 2.25rem;
-  line-height: 1.3;
+  line-height: 1;
   margin: -171px auto 0 calc(((100% - 1080px) / 2)  + 152px);
 }
 
@@ -746,7 +746,7 @@
     --animation-custom_in-opacity: 0;
     --animation-custom_in-rotate: 0deg;
     --animation-custom_in-scale: 1;
-    line-height: 1.1;
+    line-height: 1;
     letter-spacing: 1px;
     margin-top: 545px;
     margin-left: calc(((100% - 430px) / 2)  + 67px);
