@@ -5,7 +5,7 @@
 }
 
 .u-section-1 .u-sheet-1 {
-  min-height: 755px;
+  min-height: 829px;
 }
 
 .u-section-1 .u-text-1 {
@@ -55,7 +55,7 @@
 .u-section-1 .u-video-1 {
   width: 343px;
   height: 555px;
-  margin: 100px 157px 0 auto;
+  margin: 50px 157px 0 auto;
 }
 
 .u-section-1 .u-line-1 {
@@ -96,7 +96,7 @@
   --radius: 35px;
   background-image: linear-gradient(#00ea16, #42b981);
   box-shadow: 0px 0px 10px 5px rgba(128,128,128,0.5);
-  margin: 38px auto -399px 203px;
+  margin: 38px auto -275px 203px;
   padding: 8px 134px 9px 133px;
 }
 
@@ -332,14 +332,23 @@
     margin-left: calc(((100% - 430px) / 2));
   }
 } .u-section-2 {
-  background-position: 50% 50%;
-  background-repeat: no-repeat;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 1));
-  background-size: cover;
+  background-image: none;
+}
+
+.u-section-2 .u-sheet-1 {
+  min-height: 982px;
+}
+
+.u-section-2 .u-text-1 {
+  font-size: 2.25rem;
+  width: 718px;
+  margin: 80px auto 0;
 }
 
 .u-section-2 .u-video-1 {
-  min-height: 608px;
+  height: 608px;
+  margin-top: 26px;
+  margin-bottom: 0;
 }
 
 .u-section-2 .embed-responsive-1 {
@@ -350,27 +359,65 @@
   top: 0;
 }
 
-@media (max-width: 1199px) {
-  .u-section-2 .u-video-1 {
-    min-height: 532px;
-  }
+.u-section-2 .u-text-2 {
+  width: 680px;
+  margin: 34px auto -30px;
 }
 
-@media (max-width: 991px) {
+@media (max-width: 1199px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 1060px;
+  }
+
   .u-section-2 .u-video-1 {
-    min-height: 531px;
+    height: 686px;
+  }
+
+  .u-section-2 .embed-responsive-1 {
+    width: 178%;
+    height: 178%;
+    left: -39%;
+    top: -39%;
   }
 }
 
 @media (max-width: 767px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 562px;
+  }
+
   .u-section-2 .u-video-1 {
-    min-height: 405px;
+    height: 304px;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: 540px;
   }
 }
 
 @media (max-width: 575px) {
+  .u-section-2 .u-sheet-1 {
+    min-height: 449px;
+  }
+
+  .u-section-2 .u-text-1 {
+    font-size: 1.875rem;
+    width: 430px;
+  }
+
   .u-section-2 .u-video-1 {
-    min-height: 216px;
+    height: 191px;
+  }
+
+  .u-section-2 .embed-responsive-1 {
+    width: 251%;
+    height: 100%;
+    left: -76%;
+    top: 0%;
+  }
+
+  .u-section-2 .u-text-2 {
+    width: 340px;
   }
 } .u-section-3 {
   background-position: 50% 50%;
